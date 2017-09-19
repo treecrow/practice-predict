@@ -22,7 +22,7 @@ msg     | 用户消息表
 
 > 项目的所有表对应的字段
 
-## [msqApi](../md/msqApi.md)
+## [msqApi](./md/msqApi.md)
 
 > 直接操作 mysql 的一些方法
 
