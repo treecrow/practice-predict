@@ -1,0 +1,9 @@
+[2017-07-26 10:23:43.604] [ALL] default - all
+[2017-07-26 10:23:43.610] [TRACE] default - trace
+[2017-07-26 10:23:43.611] [DEBUG] default - debug
+[2017-07-26 10:23:43.611] [INFO] default - info
+[2017-07-26 10:23:43.611] [WARN] default - warn
+[2017-07-26 10:23:43.611] [ERROR] default - error
+[2017-07-26 10:23:43.611] [FATAL] default - fatal
+[2017-07-26 10:23:43.612] [MARK] default - mark
+[2017-07-26 10:23:43.612] [OFF] default - off

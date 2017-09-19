@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>graphql 接口展示</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ffd400;
+    }
+
+    li>div {
+      flex: 1;
+      padding: 10px;
+    }
+
+    li>div.query {
+      background-color: #d8d3c0;
+    }
+
+    li>div.result {
+      background-color: #d3d3e0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style='text-align:center;'>graphql 接口</h1>
+  <ul>
+    <%graphqlApiList.forEach((api)=>{%>
+      <li>
+        <div class="query">
+          <pre>
+            <code>
+              <%= JSON.stringify(api.query,null,2) %>
+            </code>
+          </pre>
+        </div>
+        <div class="result">
+          <pre>
+            <code>
+              <%= JSON.stringify(api.result,null,2) %>
+            </code>
+          </pre>
+        </div>
+      </li>
+      <%})%>
+  </ul>
+
+</body>
+
+</html>
